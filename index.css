@@ -1,0 +1,80 @@
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover {
+    background-color: #eb7620;
+    transition: 0.5s ease;
+    transition-duration: 2s;
+}
+
+.img1 {
+    height: 200px;
+    border-radius: 300px;
+    padding: 5px;
+    display: flex;
+    transition: 0.5s ease;
+}
+
+.img2 {
+    width: 300px;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 15px;
+}
+
+.img2:hover {
+    transform: translateY(-10px);
+    transition: 0.5s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.img3 {
+
+    width: 300px;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 15px;
+}
+
+.but {
+    background: white;
+    border-radius: 40px;
+}
+
+.but:hover {
+    background-color: rgb(74, 74, 247);
+    transition-duration: 2s;
+}
+
+.but a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+.but :hover {
+    color: white;
+}
+
+button{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
